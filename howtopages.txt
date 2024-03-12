@@ -1,0 +1,11 @@
+
+1. in docs-ordner bauen, optional vite.config.ts abändern, sodass direkt in den ordner gebaut wird (kein kopieren)
+  build:{
+    outDir: 'docs'
+  }
+
+
+2. .nojekyll im überorder hinzufügen (leer)
+3. repo public machen
+4. referenzen anpassen (im docs ordner . davor setzen - https://stackoverflow.com/questions/68497926/how-can-i-fix-failing-to-load-resource-status-404-github-pages)
+5. https://github.com/muelphil/bwpixelprinter/settings/pages gehen
