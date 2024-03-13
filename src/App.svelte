@@ -1,6 +1,6 @@
 <script lang="ts">
-  let height = 8;
-  let width = 8;
+  let height = 3;
+  let width = 3;
   $: imageData = Array(height * width).fill(false);
 
   const clearData = () => {
@@ -102,6 +102,8 @@
     cursor: pointer;
     user-select: none;
     color: lightgray;
+    text-align: end;
+    font-size: small;
   }
 
   .bwimage div:hover {
